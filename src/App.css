@@ -1,0 +1,110 @@
+ body{
+  background-repeat: no-repeat;
+font-family:cursive;
+background-color: lightslategrey;
+ 
+ 
+background-origin:border-box;
+ }
+  
+ .main_container{
+   
+   position: relative;
+ 
+   color: white;
+   background-color: rgb(54, 51, 54);
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10%;
+   display: table;
+   text-align: center;
+   max-height: max-content;
+   padding: 20px;
+   border-radius:10% ;
+   max-width: max-content;
+
+ }
+ .head{
+   font-family:cursive;
+ }
+ .additems{
+   padding: 10px;
+ }
+ .itemsvalue{
+   display: flex;
+   padding: 10px;
+   
+   margin: 10px;
+ }
+
+ .btn1{
+   color: rgb(252, 252, 252);
+   text-decoration: none;
+   border: none;
+   font-size: 15px;
+   margin: 4px;
+   background-color: rgb(54, 51, 54);
+ }
+
+  .btn1:hover{
+    color: rgb(204, 0, 0);
+    font-size: 15px;
+   }
+   .btn2{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    margin: 4px;
+    background-color: rgb(54, 51, 54);
+   }
+   .btn2:hover{
+    color: rgb(0, 204, 44);
+    font-size: 15px;
+   }
+ 
+ .btnadd{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  max-width: max-content;
+  margin: 4px;
+  background-color: rgb(54, 51, 54);
+ }
+ .btnadd:hover{
+  color: rgb(57, 175, 27);
+   
+ }
+ .inputitmes{
+   max-width: max-content;
+   color: white;
+  border:none;
+  font-family:cursive;
+  background-color: transparent;
+  border-bottom: 3px solid #f14c4c;
+  padding: 5px 10px;
+  outline: none
+ }
+
+ .inputitmes:focus {
+  border-color: rgb(3, 102, 184)
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.5s 0.5s ease; 
+  text-indent: -100%;
+  opacity: 1;
+}
+#text{
+ 
+  text-decoration: none;
+}
+
+/* #text:target:active{
+  text-decoration: line-through;
+  color: red;
+ } */
+ .textchange{
+  text-decoration: line-through;
+  color: red;
+ }
